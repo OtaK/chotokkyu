@@ -1,6 +1,6 @@
 {
   "name": "@otak/chotokkyu",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Fast and frictionless MVC web framework for Node.js.",
   "keywords": [
     "polka",
@@ -47,6 +47,7 @@
     "parent-require": "1.0.0",
     "pkginfo": "0.4.1",
     "polka": "^0.4.0",
+    "@polka/send-type": "^0.4.0",
     "scripts": "0.1.0",
     "syntax-error": "1.4.0",
     "utils-flatten": "1.0.0"
