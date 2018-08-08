@@ -1,9 +1,9 @@
 # chotokkyu
 
-[![Build](https://circleci.com/gh/viadeo/chotokkyu.svg?style=shield)](https://circleci.com/gh/viadeo/chotokkyu)
-[![Coverage](https://codeclimate.com/github/viadeo/chotokkyu/badges/coverage.svg)](https://codeclimate.com/github/viadeo/chotokkyu)
-[![Code Climate](https://codeclimate.com/github/viadeo/chotokkyu/badges/gpa.svg)](https://codeclimate.com/github/viadeo/chotokkyu)
-[![Dependencies](https://david-dm.org/viadeo/chotokkyu.svg)](https://david-dm.org/viadeo/chotokkyu)
+[![Build](https://circleci.com/gh/otak/chotokkyu.svg?style=shield)](https://circleci.com/gh/otak/chotokkyu)
+[![Coverage](https://codeclimate.com/github/otak/chotokkyu/badges/coverage.svg)](https://codeclimate.com/github/otak/chotokkyu)
+[![Code Climate](https://codeclimate.com/github/otak/chotokkyu/badges/gpa.svg)](https://codeclimate.com/github/otak/chotokkyu)
+[![Dependencies](https://david-dm.org/otak/chotokkyu.svg)](https://david-dm.org/otak/chotokkyu)
 
 chotokkyu is a framework that brings structure and MVC patterns to web
 applications using [Node.js](http://nodejs.org) and [Express](http://expressjs.com/).
@@ -12,14 +12,14 @@ This repository is a GitHub fork of [jaredhanson/locomotive](https://github.com/
 
 ## Installation
 
-    $ npm install --save viadeo/chotokkyu
+    $ npm install --save @otak/chotokkyu
 
 ## Quick Start
 
 `chotokkyu`, the command line interface to chotokkyu, can be used to generate a
 starter application. To use it, install chotokkyu globally.
 
-    $ npm install -g viadeo/chotokkyu
+    $ npm install -g @otak/chotokkyu
 
 Next, create an application and install dependencies.
 
@@ -59,11 +59,13 @@ the best source for documentation.
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson) for the original [Locomotive](http://locomotivejs.org/) project
-  - [Viadeo Team](http://github.com/viadeo) for the fork named chotokkyu
+  - [Viadeo Team](http://github.com/viadeo) for the fork named maglev
+  - [Mathieu Amiot](http://github.com/otak) for the fork named chotokkyu
 
 ## License
 
 (The MIT License)
+Copyright (c) 2018 Mathieu Amiot
 
 Copyright (c) 2015 Viadeo Team
 
