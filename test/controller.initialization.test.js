@@ -72,11 +72,11 @@ describe('Controller', function() {
         controller._invoke('show');
       });
 
-      it('should assign _maglev properties to req', function() {
-        expect(req._maglev).to.be.an('object');
-        expect(req._maglev.app).to.equal(app);
-        expect(req._maglev.controller).to.equal('test');
-        expect(req._maglev.action).to.equal('show');
+      it('should assign _chotokkyu properties to req', function() {
+        expect(req._chotokkyu).to.be.an('object');
+        expect(req._chotokkyu.app).to.equal(app);
+        expect(req._chotokkyu.controller).to.equal('test');
+        expect(req._chotokkyu.action).to.equal('show');
       });
     });
 

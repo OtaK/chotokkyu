@@ -1,14 +1,18 @@
 {
-  "name": "@viadeo-fcms/maglev",
-  "version": "0.7.1",
+  "name": "@otak/chotokkyu",
+  "version": "0.8.0",
   "description": "Fast and frictionless MVC web framework for Node.js.",
   "keywords": [
-    "express",
+    "polka",
     "framework",
     "web",
     "mvc"
   ],
   "contributors": [
+    {
+      "name": "Mathieu Amiot",
+      "url": "https://github.com/otak"
+    },
     {
       "name": "Viadeo Team"
     },
@@ -20,14 +24,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/viadeo/maglev.git"
+    "url": "git://github.com/otak/chotokkyu.git"
   },
   "bugs": {
-    "url": "http://github.com/viadeo/maglev/issues"
+    "url": "http://github.com/otak/chotokkyu/issues"
   },
   "license": "MIT",
   "bin": {
-    "maglev": "./bin/maglev.js"
+    "chotokkyu": "./bin/chotokkyu.js"
   },
   "main": "./lib",
   "dependencies": {
@@ -35,32 +39,33 @@
     "bootable": "0.2.4",
     "bootable-environment": "0.2.0",
     "co-prompt": "1.0.0",
-    "commander": "2.7.1",
+    "commander": "2.17.1",
     "debug": "3.1.0",
-    "depd": "1.0.1",
-    "express": "4.13.3",
-    "mkdirp": "0.3.5",
+    "depd": "1.1.2",
+    "mime": "^2.3.1",
+    "mkdirp": "0.5.1",
     "parent-require": "1.0.0",
-    "pkginfo": "0.3.0",
+    "pkginfo": "0.4.1",
+    "polka": "^0.4.0",
     "scripts": "0.1.0",
-    "syntax-error": "1.1.2",
+    "syntax-error": "1.4.0",
     "utils-flatten": "1.0.0"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "chai-connect-middleware": "0.3.1",
-    "@viadeo-fcms/chai-maglev-helpers": "0.2.1",
-    "codeclimate-test-reporter": "0.5.0",
-    "jshint": "2.9.5",
-    "mocha": "2.3.4",
-    "nyc": "11.4.1",
-    "promise": "8.0.1"
+    "@otak/chai-chotokkyu-helpers": "github:OtaK/chai-chotokkyu-helpers",
+    "chai": "^4.1.2",
+    "chai-connect-middleware": "^0.3.1",
+    "codeclimate-test-reporter": "^0.5.0",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "promise": "^8.0.1"
   },
   "engines": {
     "node": "8.9.4"
   },
   "scripts": {
-    "test": "mocha --check-leaks --require test/bootstrap/node 'test/**/*.test.js'",
+    "test": "mocha --check-leaks --require test/bootstrap/node test/**/*.test.js",
     "lint": "jshint lib/",
     "lint-tests": "jshint test/",
     "coverage": "nyc -r lcov -r text mocha --check-leaks --require test/bootstrap/node 'test/**/*.test.js'",

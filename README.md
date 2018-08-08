@@ -1,42 +1,42 @@
-# Maglev
+# chotokkyu
 
-[![Build](https://circleci.com/gh/viadeo/maglev.svg?style=shield)](https://circleci.com/gh/viadeo/maglev)
-[![Coverage](https://codeclimate.com/github/viadeo/maglev/badges/coverage.svg)](https://codeclimate.com/github/viadeo/maglev)
-[![Code Climate](https://codeclimate.com/github/viadeo/maglev/badges/gpa.svg)](https://codeclimate.com/github/viadeo/maglev)
-[![Dependencies](https://david-dm.org/viadeo/maglev.svg)](https://david-dm.org/viadeo/maglev)
+[![Build](https://circleci.com/gh/viadeo/chotokkyu.svg?style=shield)](https://circleci.com/gh/viadeo/chotokkyu)
+[![Coverage](https://codeclimate.com/github/viadeo/chotokkyu/badges/coverage.svg)](https://codeclimate.com/github/viadeo/chotokkyu)
+[![Code Climate](https://codeclimate.com/github/viadeo/chotokkyu/badges/gpa.svg)](https://codeclimate.com/github/viadeo/chotokkyu)
+[![Dependencies](https://david-dm.org/viadeo/chotokkyu.svg)](https://david-dm.org/viadeo/chotokkyu)
 
-Maglev is a framework that brings structure and MVC patterns to web
+chotokkyu is a framework that brings structure and MVC patterns to web
 applications using [Node.js](http://nodejs.org) and [Express](http://expressjs.com/).
 
 This repository is a GitHub fork of [jaredhanson/locomotive](https://github.com/jaredhanson/locomotive).
 
 ## Installation
 
-    $ npm install --save viadeo/maglev
+    $ npm install --save viadeo/chotokkyu
 
 ## Quick Start
 
-`maglev`, the command line interface to Maglev, can be used to generate a
-starter application. To use it, install Maglev globally.
+`chotokkyu`, the command line interface to chotokkyu, can be used to generate a
+starter application. To use it, install chotokkyu globally.
 
-    $ npm install -g viadeo/maglev
+    $ npm install -g viadeo/chotokkyu
 
 Next, create an application and install dependencies.
 
-    $ maglev create hello
+    $ chotokkyu create hello
     $ cd hello
     $ npm install
 
 Start the server.
 
-    $ maglev server
+    $ chotokkyu server
 
 The application is available at [localhost:3000](http://localhost:3000).
 
 Start the server with node debug mode
 
-	$ maglev server --debug (node --debug mode)
-	$ maglev server --debug-brk (node --debug-brk mode)
+	$ chotokkyu server --debug (node --debug mode)
+	$ chotokkyu server --debug-brk (node --debug-brk mode)
 
 Then you can use debug tools like [node-inspector](https://github.com/dannycoates/node-inspector) to debug your application as usual.
 
@@ -59,7 +59,7 @@ the best source for documentation.
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson) for the original [Locomotive](http://locomotivejs.org/) project
-  - [Viadeo Team](http://github.com/viadeo) for the fork named Maglev
+  - [Viadeo Team](http://github.com/viadeo) for the fork named chotokkyu
 
 ## License
 
